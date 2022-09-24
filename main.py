@@ -1,5 +1,5 @@
-from src.analyze_headline import analyze_headline
-from src.utils.pretty_print import pretty_print
+from src.headline_analyzer.analyze_headline import analyze_headline
+from src.headline_analyzer.utils.pretty_print import pretty_print
 
 
 headline = input('Enter a headline: ')
