@@ -1,5 +1,5 @@
 from random import random
-from .tokenizer import tokenize
+from .tokenize import tokenize
 
 def test_tokenize():
     test_case = 'this is a headline for testing'

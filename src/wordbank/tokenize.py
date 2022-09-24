@@ -7,3 +7,6 @@ def tokenize(headline: str) -> list[tuple[str, str]]:
   tokens = [tag_word(word) for word in words]
   return tokens
 
+def get_tag(token: tuple[str, str]):
+  """Get the tag of a token."""
+  return token[1]
