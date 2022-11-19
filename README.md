@@ -9,3 +9,9 @@
 - Sentiment
 - Readability
 - Analyze distrubution of word bank words and score
+
+
+## Refactoring Requirements
+- All tests should still pass
+- Final output should still be the same - JSON string. Code to an interface
+- Start with small changes

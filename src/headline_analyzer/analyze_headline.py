@@ -14,7 +14,7 @@ def analyze_headline(headline: str):
   result = {
     'headline': headline,
     'tokens': tokens,
-    'stats': stats,
+    'stats': stats.__dict__,
     'inference': inference,
     'percentage': percentage
   }
