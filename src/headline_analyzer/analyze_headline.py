@@ -8,7 +8,7 @@ def analyze_headline(headline: str):
 
   tokens = tokenize(headline)
   stats = get_headline_stats(headline)
-  inference = infer_headline_stats(stats)
+  inference = infer_headline_stats(stats.__dict__)
   percentage = calculate_wordbank_percentage(tokens)
 
   result = {
